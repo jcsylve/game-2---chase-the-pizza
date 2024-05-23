@@ -1,0 +1,29 @@
+{
+    "name": "Game 2 - Chase the Pizza",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "chase-the-pizza": "github:kiki-lee/chase-the-pizza"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.12.51",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
